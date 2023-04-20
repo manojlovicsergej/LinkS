@@ -1,0 +1,57 @@
+Links mobile application
+	1 . Home 
+	2 . Search
+	3 . Create
+	4 . My Links
+	5 . Settings
+
+----- Home -------
+
+ - Ovde ce biti prikaz prvih 20 linkova i bice filtered paginated i prikazivace se oni linkovi koji  imaju odredjeni topic. Topic ce se birati na home stranici tako sto ce biti dugme pa nakon kliktaja na dugme iskakace prozor u kome ce se moci birati vise topic-a
+
+ - Takodje prikaz ce se vrsiti i na osnovu korisnika koje ja pratim
+
+ - home page sadrzace 2 Fragmenta gde FYP i Follow
+
+----- Search ------
+
+ - Pretraga linkova na celoj mrezi po odredjenom kriterijumu i prikaz u RecyclerView, async metoda koja ce ucitavati jednog pojednog ili samo prvih 10, paginated also
+
+----- Create ------
+
+ - Simple create page gde mozemo kreirati nas link preurediti tekst i okaciti ga na mrezu
+
+----- My Links ------
+
+ - Recycler View sa listom svih nasih postavljenih linkova, tu ih mozemo i brisati i menjati topics i status visibility
+
+----- Settings ------
+
+ - postavljanje osnovnih settings postavki i menjanje profila
+
+
+Tables  BETA VERSION - svaki user ce moci imati samo 20 linkova i to ce biti limit po useru
+
+User (id , firstName, lastName, email, logo(base64))
+Topics (id, name)
+Settings (id,userId,......)
+Links (id, userId, topicId, title, name , description, date, time, visibility (true || false))
+Following (id , userId, linksId)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
